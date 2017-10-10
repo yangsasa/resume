@@ -140,6 +140,135 @@ header .content .icon img{
 		margin-top: 20px;
 	}
 }
+.about-box{
+	width: 100%;
+	background: #2c3138;
+	padding-top:100px; 
+	
+}
+
+.about-box .biao-ti{
+	/*background: red;*/
+	width: 648px;
+	border-bottom: 2px solid white;
+	height: 40px;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	font-size: 30px;
+	padding-bottom: 30px;
+
+}
+.about-box .jian-jie{
+	width: 1100px;
+	
+	margin: 20px auto 30px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	line-height: 1.6em;
+}
+.about-box .line{
+	width: 100%;
+	overflow: hidden;
+	
+}
+.about-box .line .content1{
+	width: 45%;
+	position: relative;
+	float: left;
+	font-size: 0;
+}
+.about-box .line .content1 img{
+	width: 100%;
+}
+
+.about-box .line .content1 .mask{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	left: 0;top: 0;
+	
+}
+.about-box .line .content1 .mask p{
+	width: 70%;
+	margin: 120px auto 0;
+	font-size: 50px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+}
+.about-box .line .content2{
+	width: 55%;
+	float: left;
+}
+.about-box .line .content2 .graduation{
+	width: 70%;
+	color: white;
+	margin-top: 90px;
+	margin-left: 45px;
+	/*margin: 90px auto 0;*/
+}
+.about-box .line .content2 .graduation h3{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.about-box .line .content2 .graduation p{
+	font-size: 18px;
+	line-height: 1.8em;
+}
+.about-box .line .content3{
+	width: 45%;
+	position: relative;
+	float: left;
+	
+}
+.about-box .line .content3 .graduation{
+	width: 70%;
+	color: white;
+	margin-top: 90px;
+	margin-left: 45px;
+	/*margin: 90px auto 0;*/
+}
+.about-box .line .content3 .graduation h3{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.about-box .line .content3 .graduation p{
+	font-size: 18px;
+	line-height: 1.5em;
+}
+.about-box .line .content4{
+	width: 55%;
+	float: left;
+	font-size: 0;
+	position: relative;
+	
+}
+.about-box .line .content4 img{
+	width: 100%;
+}
+
+.about-box .line .content4 .mask{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	left: 0;top: 0;
+	
+}
+.about-box .line .content4 .mask p{
+	width: 70%;
+	margin: 160px auto 0;
+	font-size: 50px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+}
+
+
 .skill-box{
 	width: 100%;
 	background: rgba(60,70,80,0.8);
@@ -352,140 +481,6 @@ header .content .icon img{
 .works-box .tab .content-box ul li img:hover{
 	transform: scale(1.2);
 }
-.about-box{
-	width: 100%;
-	background: #2c3138;
-	padding-top:100px; 
-	
-}
-/*.skill-box{
-	width: 100%;
-	background: rgba(60,70,80,0.8);
-	padding-top:100px; 
-	padding-bottom:100px;
-	 */
-}
-.about-box h3{
-	/*background: red;*/
-	width: 648px;
-	border-bottom: 2px solid white;
-	height: 40px;
-	margin: 0 auto;
-	color: #fff;
-	text-align: center;
-	line-height: 40px;
-	font-size: 30px;
-	padding-bottom: 30px;
-
-}
-.about-box p{
-	width: 1100px;
-	font-size: ;
-	margin: 20px auto 0;
-	color: white;
-	font-size: 20px;
-	text-align: center;
-	line-height: 1.6em;
-}
-.about-box .line{
-	width: 100%;
-	overflow: hidden;
-	
-}
-.about-box .line .content1{
-	width: 45%;
-	position: relative;
-	float: left;
-	font-size: 0;
-}
-.about-box .line .content1 img{
-	width: 100%;
-}
-
-.about-box .line .content1 .mask{
-	width: 100%;
-	height: 100%;
-	background: rgba(0,0,0,0.5);
-	position: absolute;
-	left: 0;top: 0;
-	
-}
-.about-box .line .content1 .mask p{
-	width: 70%;
-	margin: 120px auto 0;
-	font-size: 50px;
-	font-weight: bold;
-	color: white;
-	text-align: center;
-}
-.about-box .line .content2{
-	width: 55%;
-	float: left;
-}
-.about-box .line .content2 .graduation{
-	width: 70%;
-	color: white;
-	margin-top: 90px;
-	margin-left: 45px;
-	/*margin: 90px auto 0;*/
-}
-.about-box .line .content2 .graduation h3{
-	font-size: 30px;
-	margin-bottom: 20px;
-}
-.about-box .line .content2 .graduation p{
-	font-size: 18px;
-	line-height: 1.5em;
-}
-.about-box .line .content3{
-	width: 45%;
-	position: relative;
-	float: left;
-	
-}
-.about-box .line .content3 .graduation{
-	width: 70%;
-	color: white;
-	margin-top: 90px;
-	margin-left: 45px;
-	/*margin: 90px auto 0;*/
-}
-.about-box .line .content3 .graduation h3{
-	font-size: 30px;
-	margin-bottom: 20px;
-}
-.about-box .line .content3 .graduation p{
-	font-size: 18px;
-	line-height: 1.5em;
-}
-.about-box .line .content4{
-	width: 55%;
-	float: left;
-	font-size: 0;
-	position: relative;
-	
-}
-.about-box .line .content4 img{
-	width: 100%;
-}
-
-.about-box .line .content4 .mask{
-	width: 100%;
-	height: 100%;
-	background: rgba(0,0,0,0.5);
-	position: absolute;
-	left: 0;top: 0;
-	
-}
-.about-box .line .content4 .mask p{
-	width: 70%;
-	margin: 160px auto 0;
-	font-size: 50px;
-	font-weight: bold;
-	color: white;
-	text-align: center;
-}
-
 
 /*页底*/
 footer{
